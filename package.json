@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prebuild": "npx prisma generate",
+    "start": "node server.js"
     "lint": "next lint"
   },
   "dependencies": {
